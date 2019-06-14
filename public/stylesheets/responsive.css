@@ -34,14 +34,19 @@
 }
 
 @media (max-width: 979px) {
-
-  .navbar {
-      margin: 0 5px;
+    body{
+      background-color: #fff;
+    }
+  .navbar, .regist-guide {
+      /* margin: 0 5px; */
       z-index: 999;
       width: auto !important;
   }
+  .regist-guide{
+    margin: 0;
+  }
 
-  .navbar .container, #main,
+  .navbar .container, .regist-guide .container, #main,
   #content, #footer_main {
       width: 100%;
       min-width: 0;
